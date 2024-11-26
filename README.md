@@ -42,6 +42,11 @@ DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
+Configure with your OpenAI credential and the AI Model:
+```env
+OPENAI_API_KEY=
+OPENAI_API_MODEL=
+```
 
 ### **3. Run Docker and Laravel**
 Build and start the Docker containers:
